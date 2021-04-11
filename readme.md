@@ -1,5 +1,5 @@
 # Num6 - A Powerful Encrypter And Decrypter Tool
-**Version 1.0**
+**Version 0.1**
 
 Num6 is a very intelligent and efficient Encrypter and Decrypter. 
 It is very fast and mostly user friendly.
@@ -22,43 +22,57 @@ It is a Command Line Tools Upcoming is **GUI** Coming Soon...
 ![Image](IMG/img4.png)
 ![Image](IMG/img5.png)
 
-## **Usage:**
-For Linux:
-Open your terminal and type those commands.
+## **Installation:**
+As this is a python package, so you will have to setup this tool by pip.
 
+## **For Windows**
+Install Python 3 then follow the steps.
+```
+pip install num6
+```
+
+## **For Linux**
+All steps are given below
 ```
 sudo apt-get update && sudo apt-get upgrade
-sudo apt-get install python3 python3-pip git
-git clone https://github.com/Almas-Ali/Num6.git
-cd Num6
-sudo bash install
-num6
+sudo apt-get install python3 python3-pip
+pip3 install num6
 ```
 
-## **For Termux:**
-Open Termux and type those commands.
+## **Usage**
+After you have successfully install Num6 on your system, then you can import it.
+```
+import num6
+```
+You can use Two magor functions in there encrypter() and decrypter(). They takes an argument as string.
 
+**Example**
 ```
-apt-get update && apt-get upgrade
-apt-get install python3 python3-pip git
-git clone https://github.com/Almas-Ali/Num6.git
-cd Num6
+import num6
+
+num6.encrypter('This is a test string')
 ```
-No need to install it ins termux, just go into the folder and run it.
+**Output**
 ```
-python3 num6
+'525252202020220022003300000010220022003300000010101010000010033030110011003300033030000010003300033030033033220022300033110010'
+```
+Now how can you decrypt it like ugly looking number.
+
+**Example**
+```
+import num6
+
+num6.decrypter('525252202020220022003300000010220022003300000010101010000010033030110011003300033030000010003300033030033033220022300033110010')
+```
+**Output**
+```
+'This is a test string'
 ```
 
-## **For Windows:**
-Install Python3 and Git first. Then follow next steps.
-Open cmd in administration mode and start pasting the commands...
+## External Use
+You can also use it as a script.
 
-```
-git clone https://github.com/Almas-Ali/Num6.git
-cd Num6
-install
-num6
-```
 
-## Warning
-**Just Use it don't try to edit or modify it. You can report any mess of code here.**
+## For any bug report feel free to set a pull request or issue in Github
+
+Our Github link : [Num6](https://github.com/almas-ali/num6)

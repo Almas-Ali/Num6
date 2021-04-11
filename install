@@ -1,9 +1,0 @@
-#! usr/bin/bash
-
-# Installation for num6
-echo "installing Num6..."
-sudo cp "./num6.pyc" "./root/usr/bin/" > nul
-(
-echo "python3 num6.pyc"
-) > "./root/usr/bin/num6"
-echo "installation of Num6 completed..."
