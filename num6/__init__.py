@@ -1,3 +1,12 @@
-# Version of this module
+'''
+Num6 is a powerfull Encrypter and Decrypter tool for developers or hackers. Depends on user prospective.
+
+This tool has been developed for educational and research based use only. We will not responsible for any type of miss use.
+
+Stay with open source, keep contributing in open source.
+
+Thank you.
+Developer Md. Almas Ali
+'''
 
 __version__ = 0.1

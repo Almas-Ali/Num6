@@ -1,1 +1,6 @@
-env
+env/
+Num6.egg-info/
+dist/
+build/
+num6/__pycache__/
+admin-note.txt

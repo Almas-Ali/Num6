@@ -47,9 +47,9 @@ import num6
 You can use Two magor functions in there encrypter() and decrypter(). They takes an argument as string.
 
 **Example**
+
 ```
 import num6
-
 num6.encrypter('This is a test string')
 ```
 **Output**
@@ -61,7 +61,6 @@ Now how can you decrypt it like ugly looking number.
 **Example**
 ```
 import num6
-
 num6.decrypter('525252202020220022003300000010220022003300000010101010000010033030110011003300033030000010003300033030033033220022300033110010')
 ```
 **Output**
@@ -71,7 +70,6 @@ num6.decrypter('5252522020202200220033000000102200220033000000101010100000100330
 
 ## External Use
 You can also use it as a script.
-
 
 ## For any bug report feel free to set a pull request or issue in Github
 
