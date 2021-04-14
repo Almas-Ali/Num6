@@ -74,3 +74,4 @@ You can also use it as a script.
 ## For any bug report feel free to set a pull request or issue in Github
 
 Our Github link : [Num6](https://github.com/almas-ali/num6)
+Pypi link : [Num6](https://pypi.org/project/Num6)

@@ -3,10 +3,13 @@ from setuptools import setup
 README = open('README.md', 'r').read() + '\n\n' + open('CHANGELOG.txt', 'r').read()
 
 classifiers = [
-    "Development status :: In Beta version/Stable",
-    "Operating system :: All Python supported devices.",
+    # 'Development Status :: 1 - Beta',
+    'Operating System :: MacOS :: MacOS X',
+    'Operating System :: Microsoft :: Windows',
+    # 'Operating System :: Linux :: Dabian',
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
+    # 'Topic :: Encrypter And Decrypter :: Text',
 ]
 
 setup(
