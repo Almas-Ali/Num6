@@ -951,6 +951,23 @@ def fileDe():
 
 
 if __name__ == '__main__':
+    logo = '''
+           `         ``                                                            .-:/+++`         
+       -+syyss+. ./osysss/.                                                     -+sshddhyh/         
+      oyymhssyyyoyhdhsosyyy/                                                 `:syhdds:.```          
+     -hsdh` `hssyhN/`   oysh/                                               -syymh/`                
+     .hymo   ysssN/     .hssm                                              :yshm+`                  
+      ./o-   ysshm       dssN-   /sss`   :sss.   sss/osyso/./oyyso:`      -hshNyooooo/-`            
+             yssdy       dssN-   hssm:   yssdo   dssymdoysyyymhohsys`     ysshhddhyyyyys+`          
+             yssds       dssN-   hssm/   yssds   dsshd` /yssmy` yssdo    `dsshmo-`` `-hsyy`         
+             yssds       dssN-   hssm/   yssds   dssm+  /yssM.  ssshy   +odssN:       +ysd+         
+       -:-   yssds       dssN-   hssm/   dssds  .hssN:  /ysyM   ssshy  `ddmssM        /ysdy         
+      /yym:  hssm+       yssm:  .hssm/  +ysshy  oyssN-  /ysyM   +yshh  +ymhysd:      .ysyN+         
+      +ysd+`-hshN`       :yyyy:/yyhyyy/shdhyyh+ohhssN-  :ysyM   `syyh+ohdd`:syyo:..-+yyhms          
+      `oyyysyydm:         .+syhhdd+/oyhhy+.:+yhhhoohd.   /shh     -+yhhho`  `:oyyhhhhhhs-           
+        .:+oso/`             .--.                                               .----.              
+                                  Developed by Md.Almas Ali
+'''
     menu = '''
 Num6 - A Powerful Encrypter And Decrypter Tool
 	
@@ -965,6 +982,7 @@ Num6 - A Powerful Encrypter And Decrypter Tool
 
 © Copyright collected by Md. Almas Ali
 '''
+    print(logo)
     print(menu)
 
     while 1:
