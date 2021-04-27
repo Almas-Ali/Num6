@@ -12,6 +12,8 @@ It is a Command Line Tools Upcoming is **GUI** Coming Soon...
 
 [![license](https://img.shields.io/github/license/dwisiswant0/WiFiID.svg)](LICENSE)
 
+![GitHub repo size](https://img.shields.io/github/repo-size/Almas-Ali/Num6?style=plastic)
+
 ## Logo
 ![Image](IMG/logo0.jpg)
 
