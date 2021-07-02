@@ -77,7 +77,7 @@ python -m num6
 ```
 
 ## Encode your scripts
-You can encode your scripts using this num6 module like builtin module marshal in Python3. Give it try today !
+You can encode your scripts using this num6 module like builtin module marshal in Python3. Give it try today ! 
 <br>
 
 
