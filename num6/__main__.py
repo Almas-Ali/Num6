@@ -24,10 +24,10 @@ Num6 - A Powerful Encrypter And Decrypter Tool
 
         if sta == '1':
             lop = input('Enter your word : ')
-            print(f'Output:\n\n{encrypter(lop)}')
+            print(f'Output:\n\n{encrypt(lop)}')
         elif sta == '2':
             lop = input('Enter your word : ')
-            print(f'Output:\n\n{decrypter(lop)}')
+            print(f'Output:\n\n{decrypt(lop)}')
         elif sta == '3':
             try:
                 En = fileEn()

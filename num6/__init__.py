@@ -12,6 +12,12 @@ Email: almaspr3@gmail.com
 '''
 
 from .packages import *
+from sys import argv
 
-__version__ = 0.2
+__version__ = 0.3
 
+try:
+    if argv[1] == '--version':
+        print(f'version {__version__}')
+except:
+    pass
