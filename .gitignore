@@ -5,3 +5,4 @@ dist/
 build/
 num6/__pycache__/
 admin-note.txt
+test/
