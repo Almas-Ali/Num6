@@ -1,5 +1,5 @@
 # Num6 - A Powerful Encrypter And Decrypter Tool
-**Version 0.2**
+**Version 0.3**
 
 Num6 is a very intelligent and efficient encrypter and decrypter open source tool. 
 It is very fast and mostly user friendly.
