@@ -1,6 +1,6 @@
 from setuptools import setup
 
-README = open('README.md', 'r').read() + '\n\n' + open('CHANGELOG.md', 'r').read()
+README = open('README.md', 'r').read()
 
 classifiers = [
     # 'Development Status :: 1 - Beta',
@@ -14,8 +14,8 @@ classifiers = [
 
 setup(
     name="Num6",
-    version="0.2",
-    description="This is a Python 3 based Encrypter and Decrypter tool (open source).",
+    version="0.3",
+    description="Num6 - An encrypter and decrypter tool for Python 3 (open source).",
     long_description_content_type="text/markdown",
     long_description=README,
     url="https://github.com/almas-ali/num6",
