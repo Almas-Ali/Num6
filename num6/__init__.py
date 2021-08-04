@@ -11,7 +11,7 @@ Developer Md. Almas Ali
 Email: almaspr3@gmail.com
 '''
 
-from packages import *
+from .packages import *
 import argparse
 import os
 
@@ -100,7 +100,7 @@ args = parser.parse_args()
 if args.cli:
     cli_mode()
 
-# print(type(args.pin))
+# print(any(vars(args).values()))
 
 if args.encrypt:
     try:
@@ -113,3 +113,7 @@ if args.decrypt:
         print(decrypt(args.decrypt, int(args.pin)))
     except:
         print(decrypt(args.decrypt))
+
+if not any(vars(args).values()):
+    print('Num6: error: at least expected one argument')
+    parser.print_help()

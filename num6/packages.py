@@ -1,6 +1,6 @@
 # Num6
 
-from charlib import *
+from .charlib import *
 
 # encrypter
 
