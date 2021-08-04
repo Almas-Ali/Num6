@@ -4,12 +4,14 @@ with open('README.md', 'r') as README:
     long_description = README.read()
 
 classifiers = [
-    'Development Status :: 2 - Beta',
+    'Development Status :: 4 - Beta',
     'Operating System :: OS Independent',
     'Intended Audience :: Developers',
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
-    'Topic :: Encrypter And Decrypter :: Text',
+    'Topic :: Security :: Cryptography',
+    'Natural Language :: English',
+    'Environment :: Console',
 ]
 
 setuptools.setup(
