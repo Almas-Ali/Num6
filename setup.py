@@ -1,29 +1,29 @@
-from setuptools import setup
+import setuptools
 
-README = open('README.md', 'r').read()
+with open('README.md', 'r') as README:
+    long_description = README.read()
 
 classifiers = [
-    # 'Development Status :: 1 - Beta',
-    'Operating System :: MacOS :: MacOS X',
-    'Operating System :: Microsoft :: Windows',
-    # 'Operating System :: Linux :: Dabian',
+    'Development Status :: 2 - Beta',
+    'Operating System :: OS Independent',
+    'Intended Audience :: Developers',
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
-    # 'Topic :: Encrypter And Decrypter :: Text',
+    'Topic :: Encrypter And Decrypter :: Text',
 ]
 
-setup(
+setuptools.setup(
     name="Num6",
-    version="0.3",
+    version="0.3.1",
     description="Num6 - An encrypter and decrypter tool for Python 3 (open source).",
     long_description_content_type="text/markdown",
-    long_description=README,
+    long_description=long_description,
     url="https://github.com/almas-ali/num6",
     author="Md. Almas Ali",
     author_email="almaspr3@gmail.com",
     keyword="Encrypter, Decrypter, Num6",
     license="MIT",
     classifiers=classifiers,
-    packages=['num6'],
+    packages=setuptools.find_packages(),
     install_requires=[],
 )
