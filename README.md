@@ -1,5 +1,5 @@
 # Num6 - A Powerful Encrypter And Decrypter Tool
-**Version 0.3**
+**Version 0.3.1**
 
 Num6 is a very intelligent and efficient encrypter and decrypter open source tool. 
 It is very fast and mostly user friendly.
@@ -10,19 +10,27 @@ It is a Command Line Tools Upcoming is **GUI** Coming Soon...
 
 **This is a Python 3 based script. Made and developed by [Md. Almas Ali](https://facebook.com/md.almasali.0 "Md. Almas Ali")**
 
-[![license](https://img.shields.io/github/license/dwisiswant0/WiFiID.svg "LICENSE")](LICENSE)
-
+### Details
+[![LICENSE](https://img.shields.io/github/license/dwisiswant0/WiFiID.svg "LICENSE")](LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Almas-Ali/Num6?style=plastic "Size")
 
+### Downloads
+[![Downloads](https://static.pepy.tech/personalized-badge/num6?period=total&units=none&left_color=grey&right_color=blue&left_text=Total%20Downloads)](https://pepy.tech/project/num6 "Downloads")
+[![Downloads](https://static.pepy.tech/personalized-badge/num6?period=month&units=none&left_color=grey&right_color=blue&left_text=Total%20Downloads)](https://pepy.tech/project/num6 "Downloads")
+[![Downloads](https://static.pepy.tech/personalized-badge/num6?period=week&units=none&left_color=grey&right_color=blue&left_text=Total%20Downloads)](https://pepy.tech/project/num6 "Downloads")
+
+> To get more details about this project download visit [Num6 Downloads][5]
+
+
 ## Logo
-![Image](IMG/logo0.jpg)
+![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/main/IMG/logo0.jpg)
 
 ## Character Library
-![Image](IMG/img1.png)
-![Image](IMG/img2.png)
-![Image](IMG/img3.png)
-![Image](IMG/img4.png)
-![Image](IMG/img5.png)
+![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/main/IMG/img1.png)
+![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/main/IMG/img2.png)
+![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/main/IMG/img3.png)
+![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/main/IMG/img4.png)
+![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/main/IMG/img5.png)
 
 ## **Installation:**
 As this is a python package, so you will have to setup this tool by pip.
@@ -135,15 +143,33 @@ num6.decrypt('112112112212112112112212112112112212112212333133112212333133112212
 This is a test string
 ```
 
-## External Use
+<div id="cli-example"></div>
+
+## External Use As CLI
 You can also use it as a CLI.
 #### Windows
 ```
-python -m num6
+python -m num6 -h
 ```
 #### Linux
 ```
-python3 -m num6
+python3 -m num6 -h
+```
+
+#### Output
+```
+usage: Num6 [-h] [-v] [-e ENCRYPT] [-d DECRYPT] [-p PIN] [-c]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --version         show the version information
+  -e ENCRYPT, --encrypt ENCRYPT
+                        to encrypt data from cli
+  -d DECRYPT, --decrypt DECRYPT
+                        to decrypt data from cli
+  -p PIN, --pin PIN     set pin for encrpyt or decrypt data from cli
+  -c, --cli             to use in interactive cli mode
+
 ```
 
 ## Encode your scripts
@@ -160,10 +186,12 @@ Pypi link : [Num6][4] <br>
 [2]: <https://python.org/downloads> "Python 3"
 [3]: <https://github.com/almas-ali/num6> "Num6 Github"
 [4]: <https://pypi.org/project/Num6> "Num6 Pypi"
-
+[5]: <https://pepy.tech/project/num6> "Download History"
 -----------------------
 Change Logs
 ========================
+
+> Jump to latest changes <a href="#latest">Latest Chage</a>
 
 1. Initial relese 0.0.1 (18-11-2020)
 
@@ -180,5 +208,11 @@ Change Logs
         1. **Strings** : Which is encryption or decryption values.
         2. **Pin** : Which is security number for encryption or decryption values. It can be must than 6 For some issue. It wll increase soon.
     3. Logics chaged. It is not so huge difference so on. But we are trying to improve our logics.
+
+<div id="latest"></div>
+
+5. Documentation update and minor bug fixed. (04-07-2021)
+    1. In this version of [Num6][3] We have clear some documentation.
+    2. Interactive CLI have been added. <a href="#cli-example">CLI Example</a>
 
 --------------------------
