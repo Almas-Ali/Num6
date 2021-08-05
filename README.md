@@ -13,12 +13,7 @@ It is a Command Line Tools Upcoming is **GUI** Coming Soon...
 ### Details
 [![LICENSE](https://img.shields.io/github/license/dwisiswant0/WiFiID.svg "LICENSE")](LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Almas-Ali/Num6?style=plastic "Size")
-
-### Downloads
-[![Downloads](https://static.pepy.tech/personalized-badge/num6?period=total&units=none&left_color=grey&right_color=blue&left_text=Total%20Downloads)](https://pepy.tech/project/num6 "Downloads")
-[![Downloads](https://static.pepy.tech/personalized-badge/num6?period=month&units=none&left_color=grey&right_color=blue&left_text=Monthly%20Downloads)](https://pepy.tech/project/num6 "Downloads")
-[![Downloads](https://static.pepy.tech/personalized-badge/num6?period=week&units=none&left_color=grey&right_color=blue&left_text=Weekly%20Downloads)](https://pepy.tech/project/num6 "Downloads")
-
+[![Downloads](https://static.pepy.tech/personalized-badge/num6?period=total&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pypi.org/project/num6 "Num6")
 > To get more details about this project download visit [Num6 Downloads][5]
 
 
