@@ -6,7 +6,7 @@ from .charlib import *
 
 def encrypt(string, pin=1):
     '''This is encrypt function that takes string data as input and pin as security number. Default pin is 1.'''
-    jo = []
+    _jo = []
     jk = list(string)
     number = 0
     while number <= pin:
@@ -16,352 +16,352 @@ def encrypt(string, pin=1):
         if number == 1:
             pass
         else:
-            jk = ''.join(jo)
-            jo = []
-        for io in jk:
+            jk = ''.join(_jo)
+            _jo = []
+        for _io in jk:
             # Lower Case
-            if io == 'a':
-                po = io.replace(io, a)
-                jo.append(po)
-            elif io == 'b':
-                po = io.replace(io, b)
-                jo.append(po)
-            elif io == 'c':
-                po = io.replace(io, c)
-                jo.append(po)
-            elif io == 'd':
-                po = io.replace(io, d)
-                jo.append(po)
-            elif io == 'e':
-                po = io.replace(io, e)
-                jo.append(po)
-            elif io == 'f':
-                po = io.replace(io, f)
-                jo.append(po)
-            elif io == 'g':
-                po = io.replace(io, g)
-                jo.append(po)
-            elif io == 'h':
-                po = io.replace(io, h)
-                jo.append(po)
-            elif io == 'i':
-                po = io.replace(io, i)
-                jo.append(po)
-            elif io == 'j':
-                po = io.replace(io, j)
-                jo.append(po)
-            elif io == 'k':
-                po = io.replace(io, k)
-                jo.append(po)
-            elif io == 'l':
-                po = io.replace(io, l)
-                jo.append(po)
-            elif io == 'm':
-                po = io.replace(io, m)
-                jo.append(po)
-            elif io == 'n':
-                po = io.replace(io, n)
-                jo.append(po)
-            elif io == 'o':
-                po = io.replace(io, o)
-                jo.append(po)
-            elif io == 'p':
-                po = io.replace(io, p)
-                jo.append(po)
-            elif io == 'q':
-                po = io.replace(io, q)
-                jo.append(po)
-            elif io == 'r':
-                po = io.replace(io, r)
-                jo.append(po)
-            elif io == 's':
-                po = io.replace(io, s)
-                jo.append(po)
-            elif io == 't':
-                po = io.replace(io, t)
-                jo.append(po)
-            elif io == 'u':
-                po = io.replace(io, u)
-                jo.append(po)
-            elif io == 'v':
-                po = io.replace(io, v)
-                jo.append(po)
-            elif io == 'w':
-                po = io.replace(io, w)
-                jo.append(po)
-            elif io == 'x':
-                po = io.replace(io, x)
-                jo.append(po)
-            elif io == 'y':
-                po = io.replace(io, y)
-                jo.append(po)
-            elif io == 'z':
-                po = io.replace(io, z)
-                jo.append(po)
+            if _io == 'a':
+                po = _io.replace(_io, _a)
+                _jo.append(po)
+            elif _io == 'b':
+                po = _io.replace(_io, _b)
+                _jo.append(po)
+            elif _io == 'c':
+                po = _io.replace(_io, _c)
+                _jo.append(po)
+            elif _io == 'd':
+                po = _io.replace(_io, _d)
+                _jo.append(po)
+            elif _io == 'e':
+                po = _io.replace(_io, _e)
+                _jo.append(po)
+            elif _io == 'f':
+                po = _io.replace(_io, _f)
+                _jo.append(po)
+            elif _io == 'g':
+                po = _io.replace(_io, _g)
+                _jo.append(po)
+            elif _io == 'h':
+                po = _io.replace(_io, _h)
+                _jo.append(po)
+            elif _io == 'i':
+                po = _io.replace(_io, _i)
+                _jo.append(po)
+            elif _io == 'j':
+                po = _io.replace(_io, _j)
+                _jo.append(po)
+            elif _io == 'k':
+                po = _io.replace(_io, _k)
+                _jo.append(po)
+            elif _io == 'l':
+                po = _io.replace(_io, _l)
+                _jo.append(po)
+            elif _io == 'm':
+                po = _io.replace(_io, _m)
+                _jo.append(po)
+            elif _io == 'n':
+                po = _io.replace(_io, _n)
+                _jo.append(po)
+            elif _io == 'o':
+                po = _io.replace(_io, _o)
+                _jo.append(po)
+            elif _io == 'p':
+                po = _io.replace(_io, _p)
+                _jo.append(po)
+            elif _io == 'q':
+                po = _io.replace(_io, _q)
+                _jo.append(po)
+            elif _io == 'r':
+                po = _io.replace(_io, _r)
+                _jo.append(po)
+            elif _io == 's':
+                po = _io.replace(_io, _s)
+                _jo.append(po)
+            elif _io == 't':
+                po = _io.replace(_io, _t)
+                _jo.append(po)
+            elif _io == 'u':
+                po = _io.replace(_io, _u)
+                _jo.append(po)
+            elif _io == 'v':
+                po = _io.replace(_io, _v)
+                _jo.append(po)
+            elif _io == 'w':
+                po = _io.replace(_io, _w)
+                _jo.append(po)
+            elif _io == 'x':
+                po = _io.replace(_io, _x)
+                _jo.append(po)
+            elif _io == 'y':
+                po = _io.replace(_io, _y)
+                _jo.append(po)
+            elif _io == 'z':
+                po = _io.replace(_io, _z)
+                _jo.append(po)
             # Upper Case
-            elif io == 'A':
-                po = io.replace(io, A)
-                jo.append(po)
-            elif io == 'B':
-                po = io.replace(io, B)
-                jo.append(po)
-            elif io == 'C':
-                po = io.replace(io, C)
-                jo.append(po)
-            elif io == 'D':
-                po = io.replace(io, D)
-                jo.append(po)
-            elif io == 'E':
-                po = io.replace(io, E)
-                jo.append(po)
-            elif io == 'F':
-                po = io.replace(io, F)
-                jo.append(po)
-            elif io == 'G':
-                po = io.replace(io, G)
-                jo.append(po)
-            elif io == 'H':
-                po = io.replace(io, H)
-                jo.append(po)
-            elif io == 'I':
-                po = io.replace(io, I)
-                jo.append(po)
-            elif io == 'J':
-                po = io.replace(io, J)
-                jo.append(po)
-            elif io == 'K':
-                po = io.replace(io, K)
-                jo.append(po)
-            elif io == 'L':
-                po = io.replace(io, L)
-                jo.append(po)
-            elif io == 'M':
-                po = io.replace(io, M)
-                jo.append(po)
-            elif io == 'N':
-                po = io.replace(io, N)
-                jo.append(po)
-            elif io == 'O':
-                po = io.replace(io, O)
-                jo.append(po)
-            elif io == 'P':
-                po = io.replace(io, P)
-                jo.append(po)
-            elif io == 'Q':
-                po = io.replace(io, Q)
-                jo.append(po)
-            elif io == 'R':
-                po = io.replace(io, R)
-                jo.append(po)
-            elif io == 'S':
-                po = io.replace(io, S)
-                jo.append(po)
-            elif io == 'T':
-                po = io.replace(io, T)
-                jo.append(po)
-            elif io == 'U':
-                po = io.replace(io, U)
-                jo.append(po)
-            elif io == 'V':
-                po = io.replace(io, V)
-                jo.append(po)
-            elif io == 'W':
-                po = io.replace(io, W)
-                jo.append(po)
-            elif io == 'X':
-                po = io.replace(io, X)
-                jo.append(po)
-            elif io == 'Y':
-                po = io.replace(io, Y)
-                jo.append(po)
-            elif io == 'Z':
-                po = io.replace(io, Z)
-                jo.append(po)
+            elif _io == 'A':
+                po = _io.replace(_io, _A)
+                _jo.append(po)
+            elif _io == 'B':
+                po = _io.replace(_io, _B)
+                _jo.append(po)
+            elif _io == 'C':
+                po = _io.replace(_io, _C)
+                _jo.append(po)
+            elif _io == 'D':
+                po = _io.replace(_io, _D)
+                _jo.append(po)
+            elif _io == 'E':
+                po = _io.replace(_io, _E)
+                _jo.append(po)
+            elif _io == 'F':
+                po = _io.replace(_io, _F)
+                _jo.append(po)
+            elif _io == 'G':
+                po = _io.replace(_io, _G)
+                _jo.append(po)
+            elif _io == 'H':
+                po = _io.replace(_io, _H)
+                _jo.append(po)
+            elif _io == 'I':
+                po = _io.replace(_io, _I)
+                _jo.append(po)
+            elif _io == 'J':
+                po = _io.replace(_io, _J)
+                _jo.append(po)
+            elif _io == 'K':
+                po = _io.replace(_io, _K)
+                _jo.append(po)
+            elif _io == 'L':
+                po = _io.replace(_io, _L)
+                _jo.append(po)
+            elif _io == 'M':
+                po = _io.replace(_io, _M)
+                _jo.append(po)
+            elif _io == 'N':
+                po = _io.replace(_io, _N)
+                _jo.append(po)
+            elif _io == 'O':
+                po = _io.replace(_io, _O)
+                _jo.append(po)
+            elif _io == 'P':
+                po = _io.replace(_io, _P)
+                _jo.append(po)
+            elif _io == 'Q':
+                po = _io.replace(_io, _Q)
+                _jo.append(po)
+            elif _io == 'R':
+                po = _io.replace(_io, _R)
+                _jo.append(po)
+            elif _io == 'S':
+                po = _io.replace(_io, _S)
+                _jo.append(po)
+            elif _io == 'T':
+                po = _io.replace(_io, _T)
+                _jo.append(po)
+            elif _io == 'U':
+                po = _io.replace(_io, _U)
+                _jo.append(po)
+            elif _io == 'V':
+                po = _io.replace(_io, _V)
+                _jo.append(po)
+            elif _io == 'W':
+                po = _io.replace(_io, _W)
+                _jo.append(po)
+            elif _io == 'X':
+                po = _io.replace(_io, _X)
+                _jo.append(po)
+            elif _io == 'Y':
+                po = _io.replace(_io, _Y)
+                _jo.append(po)
+            elif _io == 'Z':
+                po = _io.replace(_io, _Z)
+                _jo.append(po)
             # Numbers
-            elif io == '1':
-                po = io.replace(io, one)
-                jo.append(po)
-            elif io == '2':
-                po = io.replace(io, two)
-                jo.append(po)
-            elif io == '3':
-                po = io.replace(io, three)
-                jo.append(po)
-            elif io == '4':
-                po = io.replace(io, four)
-                jo.append(po)
-            elif io == '5':
-                po = io.replace(io, five)
-                jo.append(po)
-            elif io == '6':
-                po = io.replace(io, six)
-                jo.append(po)
-            elif io == '7':
-                po = io.replace(io, seven)
-                jo.append(po)
-            elif io == '8':
-                po = io.replace(io, eight)
-                jo.append(po)
-            elif io == '9':
-                po = io.replace(io, nine)
-                jo.append(po)
-            elif io == '0':
-                po = io.replace(io, zero)
-                jo.append(po)
+            elif _io == '1':
+                po = _io.replace(_io, _one)
+                _jo.append(po)
+            elif _io == '2':
+                po = _io.replace(_io, _two)
+                _jo.append(po)
+            elif _io == '3':
+                po = _io.replace(_io, _three)
+                _jo.append(po)
+            elif _io == '4':
+                po = _io.replace(_io, _four)
+                _jo.append(po)
+            elif _io == '5':
+                po = _io.replace(_io, _five)
+                _jo.append(po)
+            elif _io == '6':
+                po = _io.replace(_io, _six)
+                _jo.append(po)
+            elif _io == '7':
+                po = _io.replace(_io, _seven)
+                _jo.append(po)
+            elif _io == '8':
+                po = _io.replace(_io, _eight)
+                _jo.append(po)
+            elif _io == '9':
+                po = _io.replace(_io, _nine)
+                _jo.append(po)
+            elif _io == '0':
+                po = _io.replace(_io, _zero)
+                _jo.append(po)
             # Spacial Character
-            elif io == '.':
-                po = io.replace(io, dot)
-                jo.append(po)
-            elif io == ' ':
-                po = io.replace(io, space)
-                jo.append(po)
-            elif io == ',':
-                po = io.replace(io, comma)
-                jo.append(po)
-            elif io == '*':
-                po = io.replace(io, star)
-                jo.append(po)
-            elif io == '/':
-                po = io.replace(io, fslash)
-                jo.append(po)
-            elif io == '\\':
-                po = io.replace(io, bslash)
-                jo.append(po)
-            elif io == '@':
-                po = io.replace(io, at)
-                jo.append(po)
-            elif io == '&':
-                po = io.replace(io, amp)
-                jo.append(po)
-            elif io == '%':
-                po = io.replace(io, persent)
-                jo.append(po)
-            elif io == '-':
-                po = io.replace(io, dash)
-                jo.append(po)
-            elif io == '_':
-                po = io.replace(io, unders)
-                jo.append(po)
-            elif io == '!':
-                po = io.replace(io, excla)
-                jo.append(po)
-            elif io == '?':
-                po = io.replace(io, question)
-                jo.append(po)
-            elif io == '\'':
-                po = io.replace(io, squort)
-                jo.append(po)
-            elif io == '\"':
-                po = io.replace(io, dquort)
-                jo.append(po)
-            elif io == '(':
-                po = io.replace(io, sbparen)
-                jo.append(po)
-            elif io == ')':
-                po = io.replace(io, cbparen)
-                jo.append(po)
-            elif io == '[':
-                po = io.replace(io, sbsqure)
-                jo.append(po)
-            elif io == ']':
-                po = io.replace(io, cbsqure)
-                jo.append(po)
-            elif io == '{':
-                po = io.replace(io, sbmid)
-                jo.append(po)
-            elif io == '}':
-                po = io.replace(io, cbmid)
-                jo.append(po)
-            elif io == '+':
-                po = io.replace(io, plas)
-                jo.append(po)
-            elif io == ':':
-                po = io.replace(io, colon)
-                jo.append(po)
-            elif io == '<':
-                po = io.replace(io, ssep)
-                jo.append(po)
-            elif io == '>':
-                po = io.replace(io, csep)
-                jo.append(po)
-            elif io == ';':
-                po = io.replace(io, scolon)
-                jo.append(po)
-            elif io == '×':
-                po = io.replace(io, cross)
-                jo.append(po)
-            elif io == 'π':
-                po = io.replace(io, pii)
-                jo.append(po)
-            elif io == '©':
-                po = io.replace(io, copy)
-                jo.append(po)
-            elif io == '®':
-                po = io.replace(io, rr)
-                jo.append(po)
-            elif io == '√':
-                po = io.replace(io, root)
-                jo.append(po)
-            elif io == '$':
-                po = io.replace(io, dollerS)
-                jo.append(po)
-            elif io == '#':
-                po = io.replace(io, hashs)
-                jo.append(po)
-            elif io == '~':
-                po = io.replace(io, aequal)
-                jo.append(po)
-            elif io == '`':
-                po = io.replace(io, hdash)
-                jo.append(po)
-            elif io == '°':
-                po = io.replace(io, degree)
-                jo.append(po)
-            elif io == '÷':
-                po = io.replace(io, vag)
-                jo.append(po)
-            elif io == '™':
-                po = io.replace(io, hTM)
-                jo.append(po)
-            elif io == '=':
-                po = io.replace(io, equal)
-                jo.append(po)
-            elif io == '≠':
-                po = io.replace(io, nequal)
-                jo.append(po)
-            elif io == '≈':
-                po = io.replace(io, alequal)
-                jo.append(po)
-            elif io == '♪':
-                po = io.replace(io, song)
-                jo.append(po)
-            elif io == '|':
-                po = io.replace(io, ll)
-                jo.append(po)
-            elif io == '^':
-                po = io.replace(io, powerof)
-                jo.append(po)
-            elif io == '£':
-                po = io.replace(io, dS)
-                jo.append(po)
-            elif io == '\t':
-                po = io.replace(io, tab)
-                jo.append(po)
-            elif io == '\n':
-                po = io.replace(io, newL)
-                jo.append(po)
+            elif _io == '.':
+                po = _io.replace(_io, _dot)
+                _jo.append(po)
+            elif _io == ' ':
+                po = _io.replace(_io, _space)
+                _jo.append(po)
+            elif _io == ',':
+                po = _io.replace(_io, _comma)
+                _jo.append(po)
+            elif _io == '*':
+                po = _io.replace(_io, _star)
+                _jo.append(po)
+            elif _io == '/':
+                po = _io.replace(_io, _fslash)
+                _jo.append(po)
+            elif _io == '\\':
+                po = _io.replace(_io, _bslash)
+                _jo.append(po)
+            elif _io == '@':
+                po = _io.replace(_io, _at)
+                _jo.append(po)
+            elif _io == '&':
+                po = _io.replace(_io, _amp)
+                _jo.append(po)
+            elif _io == '%':
+                po = _io.replace(_io, _persent)
+                _jo.append(po)
+            elif _io == '-':
+                po = _io.replace(_io, _dash)
+                _jo.append(po)
+            elif _io == '_':
+                po = _io.replace(_io, _unders)
+                _jo.append(po)
+            elif _io == '!':
+                po = _io.replace(_io, _excla)
+                _jo.append(po)
+            elif _io == '?':
+                po = _io.replace(_io, _question)
+                _jo.append(po)
+            elif _io == '\'':
+                po = _io.replace(_io, _squort)
+                _jo.append(po)
+            elif _io == '\"':
+                po = _io.replace(_io, _dquort)
+                _jo.append(po)
+            elif _io == '(':
+                po = _io.replace(_io, _sbparen)
+                _jo.append(po)
+            elif _io == ')':
+                po = _io.replace(_io, _cbparen)
+                _jo.append(po)
+            elif _io == '[':
+                po = _io.replace(_io, _sbsqure)
+                _jo.append(po)
+            elif _io == ']':
+                po = _io.replace(_io, _cbsqure)
+                _jo.append(po)
+            elif _io == '{':
+                po = _io.replace(_io, _sbmid)
+                _jo.append(po)
+            elif _io == '}':
+                po = _io.replace(_io, _cbmid)
+                _jo.append(po)
+            elif _io == '+':
+                po = _io.replace(_io, _plas)
+                _jo.append(po)
+            elif _io == ':':
+                po = _io.replace(_io, _colon)
+                _jo.append(po)
+            elif _io == '<':
+                po = _io.replace(_io, _ssep)
+                _jo.append(po)
+            elif _io == '>':
+                po = _io.replace(_io, _csep)
+                _jo.append(po)
+            elif _io == ';':
+                po = _io.replace(_io, _scolon)
+                _jo.append(po)
+            elif _io == '×':
+                po = _io.replace(_io, _cross)
+                _jo.append(po)
+            elif _io == 'π':
+                po = _io.replace(_io, _pii)
+                _jo.append(po)
+            elif _io == '©':
+                po = _io.replace(_io, _copy)
+                _jo.append(po)
+            elif _io == '®':
+                po = _io.replace(_io, _rr)
+                _jo.append(po)
+            elif _io == '√':
+                po = _io.replace(_io, _root)
+                _jo.append(po)
+            elif _io == '$':
+                po = _io.replace(_io, _dollerS)
+                _jo.append(po)
+            elif _io == '#':
+                po = _io.replace(_io, _hashs)
+                _jo.append(po)
+            elif _io == '~':
+                po = _io.replace(_io, _aequal)
+                _jo.append(po)
+            elif _io == '`':
+                po = _io.replace(_io, _hdash)
+                _jo.append(po)
+            elif _io == '°':
+                po = _io.replace(_io, _degree)
+                _jo.append(po)
+            elif _io == '÷':
+                po = _io.replace(_io, _vag)
+                _jo.append(po)
+            elif _io == '™':
+                po = _io.replace(_io, _hTM)
+                _jo.append(po)
+            elif _io == '=':
+                po = _io.replace(_io, _equal)
+                _jo.append(po)
+            elif _io == '≠':
+                po = _io.replace(_io, _nequal)
+                _jo.append(po)
+            elif _io == '≈':
+                po = _io.replace(_io, _alequal)
+                _jo.append(po)
+            elif _io == '♪':
+                po = _io.replace(_io, _song)
+                _jo.append(po)
+            elif _io == '|':
+                po = _io.replace(_io, _ll)
+                _jo.append(po)
+            elif _io == '^':
+                po = _io.replace(_io, _powerof)
+                _jo.append(po)
+            elif _io == '£':
+                po = _io.replace(_io, _dS)
+                _jo.append(po)
+            elif _io == '\t':
+                po = _io.replace(_io, _tab)
+                _jo.append(po)
+            elif _io == '\n':
+                po = _io.replace(_io, _newL)
+                _jo.append(po)
             else:
-                print(f'Unknown Character found \'{io}\' !')
+                print(f'Unknown Character found \'{_io}\' !')
 
-    return ''.join(jo)
+    return ''.join(_jo)
 
 
 # decrypter
 
 def decrypt(string, pin=1):
     '''This is decrypt function that takes string data as input and pin as security number. Default pin is 1.'''
-    yu = []
-    ui = ''
+    _yu = []
+    _ui = ''
     number = 0
     while number <= pin:
         number += 1
@@ -370,457 +370,457 @@ def decrypt(string, pin=1):
         if number == 1:
             pass
         else:
-            string = ''.join(yu)
-            yu = []
+            string = ''.join(_yu)
+            _yu = []
 
         for kl in string:
-            ui += kl
-            if len(ui) == 6:
+            _ui += kl
+            if len(_ui) == 6:
                 #  Spacial Character
-                if ui == space:
-                    pp = ui.replace(ui, ' ')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == dot:
-                    pp = ui.replace(ui, '.')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == star:
-                    pp = ui.replace(ui, '*')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == comma:
-                    pp = ui.replace(ui, ',')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == fslash:
-                    pp = ui.replace(ui, '/')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == bslash:
-                    pp = ui.replace(ui, '\\')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == at:
-                    pp = ui.replace(ui, '@')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == amp:
-                    pp = ui.replace(ui, '&')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == persent:
-                    pp = ui.replace(ui, '%')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == dash:
-                    pp = ui.replace(ui, '-')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == unders:
-                    pp = ui.replace(ui, '_')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == excla:
-                    pp = ui.replace(ui, '!')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == question:
-                    pp = ui.replace(ui, '?')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == squort:
-                    pp = ui.replace(ui, '\'')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == dquort:
-                    pp = ui.replace(ui, '\"')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == sbparen:
-                    pp = ui.replace(ui, '(')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == cbparen:
-                    pp = ui.replace(ui, ')')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == sbsqure:
-                    pp = ui.replace(ui, '[')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == cbsqure:
-                    pp = ui.replace(ui, ']')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == sbmid:
-                    pp = ui.replace(ui, '{')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == cbmid:
-                    pp = ui.replace(ui, '}')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == plas:
-                    pp = ui.replace(ui, '+')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == colon:
-                    pp = ui.replace(ui, ':')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == ssep:
-                    pp = ui.replace(ui, '<')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == csep:
-                    pp = ui.replace(ui, '>')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == scolon:
-                    pp = ui.replace(ui, ';')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == cross:
-                    pp = ui.replace(ui, '×')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == pii:
-                    pp = ui.replace(ui, 'π')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == copy:
-                    pp = ui.replace(ui, '©')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == rr:
-                    pp = ui.replace(ui, '®')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == root:
-                    pp = ui.replace(ui, '√')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == dollerS:
-                    pp = ui.replace(ui, '$')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == hashs:
-                    pp = ui.replace(ui, '#')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == aequal:
-                    pp = ui.replace(ui, '~')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == hdash:
-                    pp = ui.replace(ui, '`')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == degree:
-                    pp = ui.replace(ui, '°')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == vag:
-                    pp = ui.replace(ui, '÷')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == hTM:
-                    pp = ui.replace(ui, '™')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == equal:
-                    pp = ui.replace(ui, '=')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == nequal:
-                    pp = ui.replace(ui, '≠')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == alequal:
-                    pp = ui.replace(ui, '≈')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == song:
-                    pp = ui.replace(ui, '♪')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == ll:
-                    pp = ui.replace(ui, '|')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == powerof:
-                    pp = ui.replace(ui, '^')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == dS:
-                    pp = ui.replace(ui, '£')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == tab:
-                    pp = ui.replace(ui, '\t')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == newL:
-                    pp = ui.replace(ui, '\n')
-                    yu.append(pp)
-                    ui = ''
+                if _ui == _space:
+                    pp = _ui.replace(_ui, ' ')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _dot:
+                    pp = _ui.replace(_ui, '.')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _star:
+                    pp = _ui.replace(_ui, '*')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _comma:
+                    pp = _ui.replace(_ui, ',')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _fslash:
+                    pp = _ui.replace(_ui, '/')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _bslash:
+                    pp = _ui.replace(_ui, '\\')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _at:
+                    pp = _ui.replace(_ui, '@')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _amp:
+                    pp = _ui.replace(_ui, '&')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _persent:
+                    pp = _ui.replace(_ui, '%')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _dash:
+                    pp = _ui.replace(_ui, '-')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _unders:
+                    pp = _ui.replace(_ui, '_')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _excla:
+                    pp = _ui.replace(_ui, '!')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _question:
+                    pp = _ui.replace(_ui, '?')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _squort:
+                    pp = _ui.replace(_ui, '\'')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _dquort:
+                    pp = _ui.replace(_ui, '\"')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _sbparen:
+                    pp = _ui.replace(_ui, '(')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _cbparen:
+                    pp = _ui.replace(_ui, ')')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _sbsqure:
+                    pp = _ui.replace(_ui, '[')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _cbsqure:
+                    pp = _ui.replace(_ui, ']')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _sbmid:
+                    pp = _ui.replace(_ui, '{')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _cbmid:
+                    pp = _ui.replace(_ui, '}')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _plas:
+                    pp = _ui.replace(_ui, '+')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _colon:
+                    pp = _ui.replace(_ui, ':')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _ssep:
+                    pp = _ui.replace(_ui, '<')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _csep:
+                    pp = _ui.replace(_ui, '>')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _scolon:
+                    pp = _ui.replace(_ui, ';')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _cross:
+                    pp = _ui.replace(_ui, '×')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _pii:
+                    pp = _ui.replace(_ui, 'π')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _copy:
+                    pp = _ui.replace(_ui, '©')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _rr:
+                    pp = _ui.replace(_ui, '®')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _root:
+                    pp = _ui.replace(_ui, '√')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _dollerS:
+                    pp = _ui.replace(_ui, '$')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _hashs:
+                    pp = _ui.replace(_ui, '#')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _aequal:
+                    pp = _ui.replace(_ui, '~')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _hdash:
+                    pp = _ui.replace(_ui, '`')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _degree:
+                    pp = _ui.replace(_ui, '°')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _vag:
+                    pp = _ui.replace(_ui, '÷')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _hTM:
+                    pp = _ui.replace(_ui, '™')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _equal:
+                    pp = _ui.replace(_ui, '=')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _nequal:
+                    pp = _ui.replace(_ui, '≠')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _alequal:
+                    pp = _ui.replace(_ui, '≈')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _song:
+                    pp = _ui.replace(_ui, '♪')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _ll:
+                    pp = _ui.replace(_ui, '|')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _powerof:
+                    pp = _ui.replace(_ui, '^')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _dS:
+                    pp = _ui.replace(_ui, '£')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _tab:
+                    pp = _ui.replace(_ui, '\t')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _newL:
+                    pp = _ui.replace(_ui, '\n')
+                    _yu.append(pp)
+                    _ui = ''
                 # Numbers
-                elif ui == one:
-                    pp = ui.replace(ui, '1')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == two:
-                    pp = ui.replace(ui, '2')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == three:
-                    pp = ui.replace(ui, '3')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == four:
-                    pp = ui.replace(ui, '4')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == five:
-                    pp = ui.replace(ui, '5')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == six:
-                    pp = ui.replace(ui, '6')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == seven:
-                    pp = ui.replace(ui, '7')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == eight:
-                    pp = ui.replace(ui, '8')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == nine:
-                    pp = ui.replace(ui, '9')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == zero:
-                    pp = ui.replace(ui, '0')
-                    yu.append(pp)
-                    ui = ''
+                elif _ui == _one:
+                    pp = _ui.replace(_ui, '1')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _two:
+                    pp = _ui.replace(_ui, '2')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _three:
+                    pp = _ui.replace(_ui, '3')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _four:
+                    pp = _ui.replace(_ui, '4')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _five:
+                    pp = _ui.replace(_ui, '5')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _six:
+                    pp = _ui.replace(_ui, '6')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _seven:
+                    pp = _ui.replace(_ui, '7')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _eight:
+                    pp = _ui.replace(_ui, '8')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _nine:
+                    pp = _ui.replace(_ui, '9')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _zero:
+                    pp = _ui.replace(_ui, '0')
+                    _yu.append(pp)
+                    _ui = ''
                 # Lower Case
-                elif ui == a:
-                    pp = ui.replace(ui, 'a')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == b:
-                    pp = ui.replace(ui, 'b')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == c:
-                    pp = ui.replace(ui, 'c')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == d:
-                    pp = ui.replace(ui, 'd')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == e:
-                    pp = ui.replace(ui, 'e')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == f:
-                    pp = ui.replace(ui, 'f')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == g:
-                    pp = ui.replace(ui, 'g')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == h:
-                    pp = ui.replace(ui, 'h')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == i:
-                    pp = ui.replace(ui, 'i')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == j:
-                    pp = ui.replace(ui, 'j')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == k:
-                    pp = ui.replace(ui, 'k')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == l:
-                    pp = ui.replace(ui, 'l')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == m:
-                    pp = ui.replace(ui, 'm')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == n:
-                    pp = ui.replace(ui, 'n')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == o:
-                    pp = ui.replace(ui, 'o')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == p:
-                    pp = ui.replace(ui, 'p')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == q:
-                    pp = ui.replace(ui, 'q')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == r:
-                    pp = ui.replace(ui, 'r')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == s:
-                    pp = ui.replace(ui, 's')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == t:
-                    pp = ui.replace(ui, 't')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == u:
-                    pp = ui.replace(ui, 'u')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == v:
-                    pp = ui.replace(ui, 'v')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == w:
-                    pp = ui.replace(ui, 'w')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == x:
-                    pp = ui.replace(ui, 'x')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == y:
-                    pp = ui.replace(ui, 'y')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == z:
-                    pp = ui.replace(ui, 'z')
-                    yu.append(pp)
-                    ui = ''
+                elif _ui == _a:
+                    pp = _ui.replace(_ui, 'a')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _b:
+                    pp = _ui.replace(_ui, 'b')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _c:
+                    pp = _ui.replace(_ui, 'c')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _d:
+                    pp = _ui.replace(_ui, 'd')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _e:
+                    pp = _ui.replace(_ui, 'e')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _f:
+                    pp = _ui.replace(_ui, 'f')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _g:
+                    pp = _ui.replace(_ui, 'g')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _h:
+                    pp = _ui.replace(_ui, 'h')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _i:
+                    pp = _ui.replace(_ui, 'i')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _j:
+                    pp = _ui.replace(_ui, 'j')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _k:
+                    pp = _ui.replace(_ui, 'k')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _l:
+                    pp = _ui.replace(_ui, 'l')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _m:
+                    pp = _ui.replace(_ui, 'm')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _n:
+                    pp = _ui.replace(_ui, 'n')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _o:
+                    pp = _ui.replace(_ui, 'o')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _p:
+                    pp = _ui.replace(_ui, 'p')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _q:
+                    pp = _ui.replace(_ui, 'q')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _r:
+                    pp = _ui.replace(_ui, 'r')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _s:
+                    pp = _ui.replace(_ui, 's')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _t:
+                    pp = _ui.replace(_ui, 't')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _u:
+                    pp = _ui.replace(_ui, 'u')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _v:
+                    pp = _ui.replace(_ui, 'v')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _w:
+                    pp = _ui.replace(_ui, 'w')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _x:
+                    pp = _ui.replace(_ui, 'x')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _y:
+                    pp = _ui.replace(_ui, 'y')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _z:
+                    pp = _ui.replace(_ui, 'z')
+                    _yu.append(pp)
+                    _ui = ''
                 # Upper Case
-                elif ui == A:
-                    pp = ui.replace(ui, 'A')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == B:
-                    pp = ui.replace(ui, 'B')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == C:
-                    pp = ui.replace(ui, 'C')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == D:
-                    pp = ui.replace(ui, 'D')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == E:
-                    pp = ui.replace(ui, 'E')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == F:
-                    pp = ui.replace(ui, 'F')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == G:
-                    pp = ui.replace(ui, 'G')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == H:
-                    pp = ui.replace(ui, 'H')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == I:
-                    pp = ui.replace(ui, 'I')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == J:
-                    pp = ui.replace(ui, 'J')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == K:
-                    pp = ui.replace(ui, 'K')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == L:
-                    pp = ui.replace(ui, 'L')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == M:
-                    pp = ui.replace(ui, 'M')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == N:
-                    pp = ui.replace(ui, 'N')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == O:
-                    pp = ui.replace(ui, 'O')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == P:
-                    pp = ui.replace(ui, 'P')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == Q:
-                    pp = ui.replace(ui, 'Q')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == R:
-                    pp = ui.replace(ui, 'R')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == S:
-                    pp = ui.replace(ui, 'S')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == T:
-                    pp = ui.replace(ui, 'T')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == U:
-                    pp = ui.replace(ui, 'U')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == V:
-                    pp = ui.replace(ui, 'V')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == W:
-                    pp = ui.replace(ui, 'W')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == X:
-                    pp = ui.replace(ui, 'X')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == Y:
-                    pp = ui.replace(ui, 'Y')
-                    yu.append(pp)
-                    ui = ''
-                elif ui == Z:
-                    pp = ui.replace(ui, 'Z')
-                    yu.append(pp)
-                    ui = ''
+                elif _ui == _A:
+                    pp = _ui.replace(_ui, 'A')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _B:
+                    pp = _ui.replace(_ui, 'B')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _C:
+                    pp = _ui.replace(_ui, 'C')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _D:
+                    pp = _ui.replace(_ui, 'D')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _E:
+                    pp = _ui.replace(_ui, 'E')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _F:
+                    pp = _ui.replace(_ui, 'F')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _G:
+                    pp = _ui.replace(_ui, 'G')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _H:
+                    pp = _ui.replace(_ui, 'H')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _I:
+                    pp = _ui.replace(_ui, 'I')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _J:
+                    pp = _ui.replace(_ui, 'J')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _K:
+                    pp = _ui.replace(_ui, 'K')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _L:
+                    pp = _ui.replace(_ui, 'L')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _M:
+                    pp = _ui.replace(_ui, 'M')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _N:
+                    pp = _ui.replace(_ui, 'N')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _O:
+                    pp = _ui.replace(_ui, 'O')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _P:
+                    pp = _ui.replace(_ui, 'P')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _Q:
+                    pp = _ui.replace(_ui, 'Q')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _R:
+                    pp = _ui.replace(_ui, 'R')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _S:
+                    pp = _ui.replace(_ui, 'S')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _T:
+                    pp = _ui.replace(_ui, 'T')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _U:
+                    pp = _ui.replace(_ui, 'U')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _V:
+                    pp = _ui.replace(_ui, 'V')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _W:
+                    pp = _ui.replace(_ui, 'W')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _X:
+                    pp = _ui.replace(_ui, 'X')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _Y:
+                    pp = _ui.replace(_ui, 'Y')
+                    _yu.append(pp)
+                    _ui = ''
+                elif _ui == _Z:
+                    pp = _ui.replace(_ui, 'Z')
+                    _yu.append(pp)
+                    _ui = ''
                 else:
-                    print(f'Unknown Character found \'{ui}\' !')
-                    ui = ''
+                    print(f'Unknown Character found \'{_ui}\' !')
+                    _ui = ''
 
-    return ''.join(yu)
+    return ''.join(_yu)
 
 
 def fileEn():
