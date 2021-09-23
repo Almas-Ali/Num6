@@ -16,7 +16,7 @@ classifiers = [
 
 setuptools.setup(
     name="Num6",
-    version="0.3.1",
+    version="0.3.2",
     description="Num6 - An encrypter and decrypter tool for Python 3 (open source).",
     long_description_content_type="text/markdown",
     long_description=long_description,
@@ -28,4 +28,8 @@ setuptools.setup(
     classifiers=classifiers,
     packages=setuptools.find_packages(),
     install_requires=[],
+    entry_pointers='''
+        [console_scripts]
+        num6=num6.cli:cli_mode
+    '''
 )
