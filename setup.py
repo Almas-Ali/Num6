@@ -28,8 +28,8 @@ setuptools.setup(
     classifiers=classifiers,
     packages=setuptools.find_packages(),
     install_requires=[],
-    entry_pointers='''
+    entry_points='''
         [console_scripts]
-        num6=num6.cli:cli_mode
+        num6 = num6.cli:cli_mode
     '''
 )
