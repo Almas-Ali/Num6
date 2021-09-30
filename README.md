@@ -16,8 +16,6 @@ It is a Command Line Tools Upcoming is **GUI** Coming Soon...
 
 ### Downloads
 [![Downloads](https://static.pepy.tech/personalized-badge/num6?period=total&units=none&left_color=grey&right_color=blue&left_text=Total%20Downloads)](https://pepy.tech/project/num6 "Downloads")
-[![Downloads](https://static.pepy.tech/personalized-badge/num6?period=month&units=none&left_color=grey&right_color=blue&left_text=Total%20Downloads)](https://pepy.tech/project/num6 "Downloads")
-[![Downloads](https://static.pepy.tech/personalized-badge/num6?period=week&units=none&left_color=grey&right_color=blue&left_text=Total%20Downloads)](https://pepy.tech/project/num6 "Downloads")
 
 > To get more details about this project download visit [Num6 Downloads][5]
 
