@@ -3,13 +3,10 @@ import argparse
 import os
 
 
+__version__ = '0.3.2'
+
+
 def cli_mode():
-    parser = argparse.ArgumentParser(prog='Num6')
-
-    __version__ = '0.3.2'
-
-    parser.version = __version__
-
 
     menu = '''\
 Num6 - A Powerful Encrypter And Decrypter Tool
@@ -73,35 +70,49 @@ Num6 - A Powerful Encrypter And Decrypter Tool
             print('Wrong selection try again !')
 
 
-    parser.add_argument('-v', '--version',
-                        help='show the version information', action='version')
-    parser.add_argument('-e', '--encrypt', help='to encrypt data from cli')
-    parser.add_argument('-d', '--decrypt', help='to decrypt data from cli')
-    parser.add_argument(
-        '-p', '--pin', help='set pin for encrpyt or decrypt data from cli')
-    parser.add_argument(
-        '-c', '--cli', help='to use in interactive cli mode', action='store_true')
+parser = argparse.ArgumentParser(prog='Num6')
 
-    args = parser.parse_args()
+parser.version = __version__
 
-    if args.cli:
-        cli_mode()
+parser.add_argument('-v', '--version',
+                    help='show the version information', action='version')
+parser.add_argument('-e', '--encrypt', help='to encrypt data from cli')
+parser.add_argument('-d', '--decrypt', help='to decrypt data from cli')
+parser.add_argument(
+    '-p', '--pin', help='set pin for encrpyt or decrypt data from cli')
+parser.add_argument(
+    '-c', '--cli', help='to use in interactive cli mode', action='store_true')
+parser.add_argument(
+    '-g', '--gui', help='to use in interactive GUI mode', action='store_true')
+
+args = parser.parse_args()
+
+# for test
+print(args)
+print(any(vars(args).values()))
+if any(vars(args).values()):
+    print('dsjg')
 
     # print(any(vars(args).values()))
 
-    if args.encrypt:
-        try:
-            print(encrypt(args.encrypt, int(args.pin)))
-        except:
-            print(encrypt(args.encrypt))
+elif args.gui:
+    from . import num6_gui
 
-    if args.decrypt:
-        try:
-            print(decrypt(args.decrypt, int(args.pin)))
-        except:
-            print(decrypt(args.decrypt))
+elif args.encrypt:
+    try:
+        print(encrypt(args.encrypt, int(args.pin)))
+    except:
+        print(encrypt(args.encrypt))
 
-    if not any(vars(args).values()):
-        print('Num6: error: at least expected one argument')
-        parser.print_help()
+elif args.decrypt:
+    try:
+        print(decrypt(args.decrypt, int(args.pin)))
+    except:
+        print(decrypt(args.decrypt))
 
+elif not any(vars(args).values()):
+    print('Num6: error: at least expected one argument')
+    parser.print_help()
+
+elif args.cli:
+    cli_mode()
