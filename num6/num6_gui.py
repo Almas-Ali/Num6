@@ -5,7 +5,7 @@ from tkinter.messagebox import *
 import num6
 
 
-__version__ = '0.3.3'
+__version__ = '0.3.2'
 
 
 def exit_f():
@@ -24,6 +24,14 @@ def num6_encrypt(value: str = None):
 
 def num6_decrypt(value: str = None):
     return num6.decrypt(value)
+
+
+def Clear():
+    print('Clearing this')
+
+
+def Copy():
+    print('Coping this')
 
 
 root = Tk()
@@ -117,7 +125,10 @@ encryption.pack(expand=True, fill='both')
 scrollbar.config(command=encryption.yview)
 scrollbar2.config(command=encryption.xview)
 
-Button(f4, text='Encrypt', bg='darkgreen', fg='white', command=num6_encrypt).pack()
+Button(f4, text='Clear', bg='darkgreen', fg='white', command=Clear).pack()
+Button(f4, text='Copy', bg='darkgreen', fg='white', command=Copy).pack()
+Button(f4, text='Encrypt', bg='darkgreen',
+       fg='white', command=num6_encrypt).pack()
 
 #Text(f2, textvariable=encryption_value, bg='lightblue', fg='black', font='Times 8 bold').pack(pady=30)
 
