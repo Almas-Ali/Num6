@@ -18,12 +18,12 @@ def exit_f():
         return 'Exit permission denied ! '
 
 
-def num6_encrypt(value: str = None):
-    return num6.encrypt(value)
+def num6_encrypt():
+    return num6.encrypt(string=normal_value.get('1.0'))
 
 
-def num6_decrypt(value: str = None):
-    return num6.decrypt(value)
+def num6_decrypt():
+    return num6.decrypt(string=encrypted_value.get())
 
 
 def Clear():
@@ -102,12 +102,12 @@ scrollbar2.pack(side='bottom', fill='x')
 
 Label(f3, text='Normal value :', bg='lightblue').pack()
 
-encryption = Text(f3, bg='white', fg='black',
+normal_value = Text(f3, bg='white', fg='black',
                   yscrollcommand=scrollbar.set, xscrollcommand=scrollbar2.set, height=10, width=700)
 
-encryption.pack(expand=True, fill='both')
-scrollbar.config(command=encryption.yview)
-scrollbar2.config(command=encryption.xview)
+normal_value.pack(expand=True, fill='both')
+scrollbar.config(command=normal_value.yview)
+scrollbar2.config(command=normal_value.xview)
 
 
 scrollbar = Scrollbar(f4)
@@ -118,12 +118,12 @@ scrollbar2.pack(side='bottom', fill='x')
 
 Label(f4, text='Encryped value :', bg='lightblue').pack()
 
-encryption = Text(f4, bg='white', fg='black',
+encrypted_value = Text(f4, bg='white', fg='black',
                   yscrollcommand=scrollbar.set, xscrollcommand=scrollbar2.set, height=10, width=700)
 
-encryption.pack(expand=True, fill='both')
-scrollbar.config(command=encryption.yview)
-scrollbar2.config(command=encryption.xview)
+encrypted_value.pack(expand=True, fill='both')
+scrollbar.config(command=encrypted_value.yview)
+scrollbar2.config(command=encrypted_value.xview)
 
 Button(f4, text='Clear', bg='darkgreen', fg='white', command=Clear).pack()
 Button(f4, text='Copy', bg='darkgreen', fg='white', command=Copy).pack()
