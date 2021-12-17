@@ -9,7 +9,7 @@ __version__ = '0.3.2'
 def cli_mode():
 
     menu = '''\
-Num6 - A Powerful Encrypter And Decrypter Tool
+Num6 - A Powerful Cryptography Tool
 
 1.  For word or line encryption
 2.  For word or line decryption

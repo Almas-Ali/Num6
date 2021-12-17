@@ -19,7 +19,7 @@ def exit_f():
 
 
 def num6_encrypt():
-    return num6.encrypt(string=normal_value.get('1.0'))
+    return num6.encrypt(string=normal_value.get())
 
 
 def num6_decrypt():
