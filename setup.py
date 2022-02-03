@@ -16,7 +16,7 @@ classifiers = [
 
 setuptools.setup(
     name="Num6",
-    version="0.3.3",
+    version="0.4.0",
     description="Num6 - An cryptography tool for Python 3 (open source).",
     long_description_content_type="text/markdown",
     long_description=long_description,
