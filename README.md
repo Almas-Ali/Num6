@@ -28,14 +28,14 @@ All numbers are 6 digit number, this how it named **Num6**.
 
 
 ## Logo
-![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/main/IMG/logo0.jpg)
+![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/master/IMG/logo0.jpg)
 
 ## Character Library
-![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/main/IMG/img1.png)
-![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/main/IMG/img2.png)
-![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/main/IMG/img3.png)
-![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/main/IMG/img4.png)
-![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/main/IMG/img5.png)
+![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/master/IMG/img1.png)
+![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/master/IMG/img2.png)
+![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/master/IMG/img3.png)
+![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/master/IMG/img4.png)
+![Image](https://raw.githubusercontent.com/Almas-Ali/Num6/master/IMG/img5.png)
 
 ## **Installation:**
 As this is a python package, so you will have to setup this tool by pip.
